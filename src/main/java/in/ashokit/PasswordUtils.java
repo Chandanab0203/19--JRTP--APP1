@@ -6,7 +6,8 @@ public class PasswordUtils {
 	{
 		//logic here
 		
-		
+		//bug fix 104 
+		System.out.println("Bug 104 fixed");
 	}
 	public void encode ()
 	{
