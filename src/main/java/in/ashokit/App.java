@@ -12,6 +12,7 @@ public class App
     {
     	PasswordService password = new PasswordService();
     	System.out.println(password.encrypt("Chan1234"));
+    	System.out.println("Hello World");
     	
     	String decoder = password.decrypt(password.encrypt("Chan1234"));
     	System.out.println(decoder);
